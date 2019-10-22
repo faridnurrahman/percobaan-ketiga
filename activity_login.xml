@@ -1,0 +1,75 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:padding="15dp"
+     android:layout_height="match_parent">
+
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="login"
+         android:textSize="50sp"
+         android:textColor="dark"/>
+
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="silahkan login dengan menggunakan username dan password anda"
+         android:textSize="15sp"
+         android:paddingBottom="30dp"
+         android:textColor="Dark"/>
+
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="username" />
+
+     <EditText
+         android:id="@+id/etUsername"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         android:layout_width="match_parent" />
+
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="password" />
+
+     <EditText
+         android:id="@+id/etPassword"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         android:inputType="textPassword"
+         android:layout_width="match_parent" />
+
+     <Button
+         android:id="@+id/blogin"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:text="login" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="20dp"
+          android:paddingLeft="55dp"
+          android:text="Sudahkah Anda Registrasi? Jika Belum"
+          android:textColor="dark"
+          android:textSize="15sp" />
+
+     <TextView
+         android:id="@+id/tvRegisterLink"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textSize="15sp"
+         android:paddingLeft="130dp"
+         android:textStyle="bold"
+         android:textColor="@color/colorPrimaryDark"
+         android:text="Registrasi Disini" />
+
+ </LinearLayout>
+
+
+
+
